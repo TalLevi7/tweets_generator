@@ -1,0 +1,16 @@
+Tal Levi
+ex1
+Submitted files-
+markov_chain.h - the header file for the markov chain. contains the declaration for the markov chain functions
+
+markov_chain.c - the c file for the markov chain. contains the implementation of the markov chain and the functions in markov_chain.h.
+additional functions: 
+is_last_word - returns 1 if the string ends with '.', else returns 0.
+initialize_MarkovChain - Function to create and initialize a MarkovChain, if unsuccessful return NULL
+
+tweets_generator.c - contains the Main function, and the fill_database function - reads the file and fills the MarkovChain's database.
+additional functions:
+end_memory_failed - prints the given error message and frees all memory
+print_markov_chain - prints the whole markov chain, frequencies included (this function was marked as a comment for now)
+
+
