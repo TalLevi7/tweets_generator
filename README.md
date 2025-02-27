@@ -43,9 +43,9 @@ The program reads input from a corpus file (e.g., `tweets_justdoit.txt`) and par
 
 ## Files in the Project
 
-- `chain_markov.h`: Contains struct definitions.
-- `chain_markov.c`: Implements the Markov Chain logic.
-- `linked_list.h`, `linked_list.c`: Implements a linked list (provided, not to be modified).
+- `markov_chain.h`: Contains struct definitions.
+- `markov_chain.c`: Implements the Markov Chain logic.
+- `linked_list.h`, `linked_list.c`: Implements a linked list.
 - `generator_tweets.c`: Contains the main function and additional tweet generation logic.
 - `tweets_justdoit.txt`: Example dataset for testing.
 
