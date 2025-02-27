@@ -68,5 +68,5 @@ Where:
 
 for example:
 ```sh
-./tweets_generator 42 5 tweets_justdoit.txt
+./tweets_generator 42 5 justdoit_tweets.txt
 ```
